@@ -1,4 +1,4 @@
-FROM node:lts AS development
+FROM node:14 AS development
 
 WORKDIR /code
 COPY package.json /code/package.json
